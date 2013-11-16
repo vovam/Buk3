@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="fill_horizontal|center_vertical" android:weightSum="7"
+        android:id="@+id/help_overlay1" android:padding="@dimen/padding">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/help_overlay_about_letters" android:id="@+id/textView"
+              android:gravity="left|fill_vertical"
+              android:layout_gravity="left"
+              style="@style/help_overlay_tv_style"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/help_overlay_about_score" android:id="@+id/textView1"
+              android:layout_weight="1"
+              android:gravity="right|fill_vertical"
+              android:layout_gravity="right"
+              style="@style/help_overlay_tv_style"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/help_overlay_add" android:id="@+id/textView2"
+              android:layout_weight="1" android:gravity="left|fill_vertical"
+              android:layout_gravity="left"
+              style="@style/help_overlay_tv_style"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/help_overlay_word_list" android:id="@+id/textView3"
+              android:layout_gravity="center_horizontal"
+              android:layout_weight="1" android:gravity="fill"
+              style="@style/help_overlay_tv_style"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/help_overlay_clear" android:id="@+id/textView4"
+              android:layout_weight="1"
+              android:gravity="right|fill_vertical"
+              android:layout_gravity="right"
+              style="@style/help_overlay_tv_style"/>
+</LinearLayout>

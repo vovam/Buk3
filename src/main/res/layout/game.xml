@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ru.bukvica.views.GameView xmlns:android="http://schemas.android.com/apk/res/android"
+                                      android:id="@+id/main_layout"
+                                      style="@style/main_layout">
+
+    <TableRow android:id="@+id/main_score_row" style="@style/main_row"
+        android:background="@drawable/border_day">
+        <LinearLayout android:id="@+id/main_score_left_layout"
+                      android:orientation="vertical"
+                      android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1.0"
+                      android:weightSum="1.0">
+            <TextView
+                    android:id="@+id/main_score_player1_name"
+                    android:textSize="@dimen/main_players_names_text_size"
+                    android:layout_weight="0.20"
+                    style="@style/main_score.left"
+                    android:text="*******"/>
+            <TextView android:id="@+id/main_score_player1"
+                      android:layout_weight="0.80"
+                      style="@style/main_score.left"
+                      android:textSize="@dimen/main_score_text_size"
+                      android:text="99" android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView android:id="@+id/main_word_clear"
+                  android:text="@string/main_word_clear_sign"
+                  android:textColor="@color/main_clear_word_sign"
+                  style="@style/main_actions"/>
+
+        <TextView android:id="@+id/main_word_list"
+                  android:text="@string/main_word_list_sign"
+                  style="@style/main_actions" />
+
+        <TextView android:id="@+id/main_word_add"
+                  android:text="@string/main_word_add_sign"
+                  android:textColor="@color/main_apply_word_sign"
+                  style="@style/main_actions"/>
+
+        <LinearLayout android:id="@+id/main_score_right_layout"
+                      android:orientation="vertical"
+                      android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1.0"
+                      android:weightSum="1.0">
+            <TextView
+                    android:id="@+id/main_score_player2_name"
+                    android:textSize="@dimen/main_players_names_text_size"
+                    android:layout_weight="0.20"
+                    style="@style/main_score.right"
+                    android:text="*******"/>
+            <TextView android:id="@+id/main_score_player2"
+                      android:textSize="@dimen/main_score_text_size"
+                      android:layout_weight="0.80"
+                      style="@style/main_score.right"
+                      android:text="99" android:textStyle="bold"/>
+        </LinearLayout>
+
+    </TableRow>
+    <Space android:id="@+id/main_space_1" style="@style/main_space"/>
+    <TableRow android:id="@+id/main_word_row" style="@style/main_row"
+        android:background="@drawable/border_day">
+        <TextView android:id="@+id/main_word" android:text="********" style="@style/main_word"/>
+    </TableRow>
+    <Space android:id="@+id/main_space_2" style="@style/main_space"/>
+    <TableLayout android:id="@+id/main_letter_layout" style="@style/main_letter_layout"
+        android:background="@drawable/border_day">
+        <TableRow style="@style/main_letter_row">
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+        </TableRow>
+        <TableRow style="@style/main_letter_row">
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+        </TableRow>
+        <TableRow style="@style/main_letter_row">
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+        </TableRow>
+        <TableRow style="@style/main_letter_row">
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+        </TableRow>
+        <TableRow style="@style/main_letter_row">
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+            <ru.bukvica.views.LetterView style="@style/letter"/>
+        </TableRow>
+    </TableLayout>
+
+</ru.bukvica.views.GameView>

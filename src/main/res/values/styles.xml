@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" >
+
+    </style>
+    <style name="AppThemeNight" parent="@android:style/Theme.Holo">
+        <item name="android:icon">@drawable/launcher_night</item>
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
+        <item name="android:textColor">@color/text_night</item>
+        <item name="android:background">@color/transparet</item>
+    </style>
+    <style name="AppThemeDay" parent="@android:style/Theme.Holo.Light">
+        <item name="android:icon">@drawable/launcher_day</item>
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.Light.ActionBar.Solid</item>
+        <item name="android:textColor">@color/text_day</item>
+        <item name="android:background">@color/transparet</item>
+    </style>
+
+    <style name="letter">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:enabled">true</item>
+        <item name="android:textSize">@dimen/main_text_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">*</item>
+        <item name="android:background">@color/transparet</item>
+    </style>
+
+    <style name="main_row">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">5</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:padding">@dimen/main_border_width</item>
+    </style>
+
+    <style name="main_score">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="main_score.left">
+        <item name="android:background">@color/player1d</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="main_score.right">
+        <item name="android:background">@color/player2d</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="main_letter_row">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:weightSum">5</item>
+    </style>
+    <style name="main_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:measureWithLargestChild">false</item>
+    </style>
+    <style name="main_space">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.4</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+    <style name="main_letter_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">5</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">5.0</item>
+        <item name="android:padding">@dimen/main_border_width</item>
+        <item name="android:gravity">fill</item>
+    </style>
+    <style name="main_word">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/main_word_text_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_span">5</item>
+        <item name="android:layout_weight">5</item>
+    </style>
+    <style name="main_actions">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/main_word_action_size</item>
+        <item name="android:gravity">center|fill_vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="words_list_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_column">0</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/word_list_margin_title</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/word_list_text_size_title</item>
+    </style>
+
+    <style name="words_list_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="help_overlay_tv_style">
+        <item name="android:textColor">@color/help_overlay_text</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/help_overlay_tv_text_size</item>
+    </style>
+
+    <style name="games_list_btn" parent="android:DeviceDefault.ButtonBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@android:drawable/btn_star</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/games_list_text</item>
+        <item name="android:layout_gravity">right|center_vertical</item>
+        <item name="android:drawablePadding">@dimen/games_list_padding</item>
+        <item name="android:paddingTop">@dimen/games_list_btn_padding</item>
+        <item name="android:paddingBottom">@dimen/games_list_btn_padding</item>
+    </style>
+
+    <style name="start_row">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingTop">@dimen/start_padding_row</item>
+    </style>
+    <style name="start_symbol">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.2</item>
+        <item name="android:paddingLeft">@dimen/start_padding_row</item>
+        <item name="android:textSize">@dimen/start_symbol_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="start_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.8</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/start_text_size</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    <style name="start_rbutton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:clickable">true</item>
+        <item name="android:enabled">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginLeft">@dimen/start_rbutton_padding</item>
+        <item name="android:layout_marginRight">@dimen/start_rbutton_padding</item>
+        <item name="android:textSize">@dimen/start_rbutton_text_size</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="options_titles">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/options_switch</item>
+    </style>
+
+    <style name="options_row_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/options_padding</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="options_edittext">
+        <item name="android:enabled">true</item>
+        <item name="android:editable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/options_switch</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

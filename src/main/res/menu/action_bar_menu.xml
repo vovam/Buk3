@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_bar_more"
+          android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/action_bar_start"
+                  android:icon="@android:drawable/ic_menu_add"
+                  android:title="@string/start_game"/>
+            <item android:id="@+id/action_bar_help"
+                  android:icon="@android:drawable/ic_menu_help"
+                  android:title="@string/action_bar_rules"/>
+            <item android:id="@+id/action_bar_list"
+                  android:icon="@android:drawable/ic_menu_view"
+                  android:title="@string/start_games_list"/>
+            <item android:id="@+id/action_bar_finish"
+                  android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                  android:title="@string/action_bar_finish"/>
+        </menu>
+    </item>
+</menu>

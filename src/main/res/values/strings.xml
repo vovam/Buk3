@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Буквица</string>
+    <string name="start_game">New Game</string>
+    <string name="start_exit_game">Exit</string>
+    <string name="start_games_list">Continue</string>
+    <string name="start_options">Options</string>
+
+    <string name="help_rules">Field 5 × 5 is filled with random letters.
+             There is a few rules how to make words: \n
+             1. Word can only be used once per game. \n
+             2. The word should not be part of the word is used. \n
+             3. Each specific letter in a word can be used only once. \n
+             4. For each letter in the word used, except captured, you get one point. \n
+                (Captured letters - your letters that you surrounded on all sides;
+                 for such letters opponent receives no points, but can use them.) \n
+             5. For letter you receive one point and opponent loses one.\n
+             6. The game ends at the moment when there is no white letters.
+             Player with the most points win.</string>
+
+    <string name="games_list_btn_text">Player 1 vs Player 2\n22 - 21</string>
+
+    <string name="letters_freq">оеаитнсрвл</string>
+    <string name="letters_unfreq">кмдпуяызъьбгчйчжюшцщэф</string>
+    <string name="letters_all">оеаитнсрвлкмдпуяызъьбгчйчжюшцщэф</string>
+
+    <string name="start_rbutton_human">Human</string>
+    <string name="start_rbutton_dev">Android</string>
+    <string name="start_rbutton_net">Net</string>
+    <string name="start_continue_symbol">&gt;</string>
+    <string name="start_newgame_symbol">+</string>
+    <string name="start_options_symbol">*</string>
+    <string name="start_exit_symbol">&lt;</string>
+
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+
+    <string name="main_gameover">Game is over</string>
+    <string name="main_word_add">\'%word_to_add%\' is added!</string>
+    <string name="main_word_used">\'%word_to_add%\' already used!</string>
+    <string name="main_word_not_in_dictionary">Can\'t find \'%word_to_add%\' in dictionary!</string>
+    <string name="main_word_is_part">\'%word_to_add%\' is part of word!</string>
+    <string name="main_word_small">Word is have to consist of 2 letters minimum</string>
+    <string name="main_word_to_add">%word_to_add%</string>
+    <string name="main_add_word_question">Add \'%word_to_add%\' to user dictionary?</string>
+    <string name="main_cant_find_word">Unfortunately can\'t find appropriate word.</string>
+    <string name="main_word_search_loop">Searching the word</string>
+
+    <string name="main_word_clear_sign">✘</string>
+    <string name="main_word_add_sign">✚</string>
+    <string name="main_word_list_sign">≡</string>
+    <string name="main_word_include_sign">✔</string>
+    <string name="main_word_exclude_sign">Ø</string>
+    <string name="main_delete_word_question">This word \'%word_to_add%\' doesn\'t exist?</string>
+
+    <string name="action_bar_finish">Give up</string>
+
+    <string name="options_debug">Debug:</string>
+    <string name="options_theme">Theme:</string>
+    <string name="options_debug_on">ON</string>
+    <string name="options_debug_off">OFF</string>
+    <string name="options_theme_day">DAY</string>
+    <string name="options_theme_night">NIGHT</string>
+    <string name="action_bar_rules">Rules</string>
+    <string name="player2_name">Player 2</string>
+    <string name="player1_name">Player 1</string>
+    <string name="options_player1_name_title">Player 1 name:</string>
+    <string name="player2_name_title">Player 2 name:</string>
+
+    <string name="help_overlay_about_letters">Нажимайте на буквы, \nчтобы составить слово</string>
+    <string name="help_overlay_about_score">За сыгранные слова \nначисляются очки</string>
+    <string name="help_overlay_add">Нажмите на + или слово, \nчтобы его сыграть</string>
+    <string name="help_overlay_clear">✘ очистит слово</string>
+    <string name="help_overlay_word_list">≡ сыгранные слова</string>
+
+    <string name="help_overlay_rule1">Слово используется один раз за игру.</string>
+    <string name="help_overlay_rule2">Слово не должно быть частью уже использованного.</string>
+    <string name="help_overlay_rule3">За каждую букву, кроме окруженных, вы получаете один балл.</string>
+    <string name="help_overlay_rule4">Если вы используете букву соперника (не окруженную) - он теряет один балл.</string>
+    <string name="help_overlay_rule5">Игра завершается в момент, когда не остаётся ни одной не использованной буквы.</string>
+</resources>

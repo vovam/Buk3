@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_text_size">40sp</dimen>
+    <dimen name="main_score_text_size">30sp</dimen>
+    <dimen name="main_word_text_size">30sp</dimen>
+    <dimen name="main_word_action_size">50sp</dimen>
+    <dimen name="main_players_names_text_size">15sp</dimen>
+
+    <dimen name="start_text_size">33sp</dimen>
+    <dimen name="start_symbol_size">40sp</dimen>
+    <dimen name="start_rbutton_text_size">10sp</dimen>
+
+    <dimen name="word_list_text_size_title">20sp</dimen>
+    <dimen name="help_text_size">12sp</dimen>
+    <dimen name="games_list_text">18sp</dimen>
+    <dimen name="help_overlay_tv_text_size">30sp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="toast_duration_word_search">900</integer>
+    <integer name="sleep_duration_word_search">1100</integer>
+    <integer name="make_snapshot_delay">1000</integer>
+    <integer name="letter_animation_duration">100</integer>
+    <integer name="letter_player_delay">250</integer>
+    <integer name="device_word_play_delay">2000</integer>
+    <integer name="word_clear_delay">1000</integer>
+</resources>

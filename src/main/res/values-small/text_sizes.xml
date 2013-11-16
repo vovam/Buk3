@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_text_size">21dp</dimen>
+    <dimen name="main_score_text_size">8dp</dimen>
+    <dimen name="main_word_text_size">16dp</dimen>
+    <dimen name="start_text_size">25dp</dimen>
+    <dimen name="start_symbol_size">25dp</dimen>
+    <dimen name="start_rbutton_text_size">8dp</dimen>
+    <dimen name="word_list_text_size_title">16dp</dimen>
+    <dimen name="help_text_size">10dp</dimen>
+    <dimen name="games_list_text">15dp</dimen>
+    <dimen name="help_overlay_tv_text_size">20sp</dimen>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Буквица</string>
+    <string name="start_game">Новая игра</string>
+    <string name="start_exit_game">Выйти</string>
+    <string name="start_games_list">Продолжить</string>
+    <string name="start_options">Настройки</string>
+
+    <string name="action_bar_finish">Сдаться</string>
+    <string name="action_bar_rules">Правила</string>
+
+    <string name="games_list_btn_text">Игрок 1 vs Игрок 2\n22 - 21</string>
+
+    <string name="letters_freq">оеаитнсрвл</string>
+    <string name="letters_unfreq">кмдпуяызъьбгчйчжюшцщэф</string>
+    <string name="letters_all">оеаитнсрвлкмдпуяызъьбгчйчжюшцщэф</string>
+
+    <string name="start_rbutton_human">Человек</string>
+    <string name="start_rbutton_dev">Андроид</string>
+    <string name="start_rbutton_net">Сеть</string>
+
+    <string name="ok">Да</string>
+    <string name="cancel">Нет</string>
+
+    <string name="main_gameover">Игра завершена</string>
+    <string name="main_word_add">\'%word_to_add%\' добавлено!</string>
+    <string name="main_word_used">\'%word_to_add%\' уже использовано!</string>
+    <string name="main_word_not_in_dictionary">Не могу найти \'%word_to_add%\' в словаре!</string>
+    <string name="main_word_is_part">\'%word_to_add%\' чать использованного слова!</string>
+    <string name="main_word_small">Слово должно состоять больше чем из 2 букв.</string>
+    <string name="main_word_to_add">%word_to_add%</string>
+    <string name="main_add_word_question">Добавить \'%word_to_add%\' в словарь?</string>
+    <string name="main_cant_find_word">Не могу найти не одного слова :(</string>
+    <string name="main_word_search_loop">Ищу слово..</string>
+
+    <string name="main_delete_word_question">Не использовать \'%word_to_add%\' больше?</string>
+
+    <string name="options_debug">Отладка:</string>
+    <string name="options_theme">Тема:</string>
+    <string name="options_debug_on">ВКЛ</string>
+    <string name="options_debug_off">ВЫКЛ</string>
+    <string name="options_theme_day">ДЕНЬ</string>
+    <string name="options_theme_night">НОЧЬ</string>
+    <string name="player2_name">Боб</string>
+    <string name="player1_name">Джон</string>
+    <string name="options_player1_name_title">Имя игрока 1:</string>
+    <string name="player2_name_title">Имя игрока 2:</string>
+
+    <string name="help_overlay_about_letters">Нажимайте на буквы, \nчтобы составить слово</string>
+    <string name="help_overlay_about_score">За сыгранные слова \nначисляются очки</string>
+    <string name="help_overlay_add">Нажмите на + или слово, \nчтобы его сыграть</string>
+    <string name="help_overlay_clear">✘ очистит слово</string>
+    <string name="help_overlay_word_list">≡ сыгранные слова</string>
+
+    <string name="help_overlay_rule1">Слово используется один раз за игру.</string>
+    <string name="help_overlay_rule2">Слово не должно быть частью уже использованного.</string>
+    <string name="help_overlay_rule3">За каждую букву, кроме окруженных, вы получаете один балл.</string>
+    <string name="help_overlay_rule4">Если вы используете букву соперника (не окруженную) - он теряет один балл.</string>
+    <string name="help_overlay_rule5">Игра завершается в момент, когда не остаётся ни одной не использованной буквы.</string>
+</resources>

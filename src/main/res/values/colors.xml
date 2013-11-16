@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparet">#00000000</color>
+    <color name="background">#f0ffffff</color>
+    <color name="selected">#f0F2EBBF</color>
+    <color name="player1">#f08CBEB2</color>
+    <color name="player1d">#f075a094</color>
+    <color name="player2">#f0EF847B</color>
+    <color name="player2d">#f0d06d68</color>
+    <color name="main_apply_word_sign">#ff8CBEB2</color>
+    <color name="main_clear_word_sign">#ffEF847B</color>
+
+    <color name="help_overlay_tv_bg">#70000000</color>
+    <color name="help_overlay_text">#ffffffff</color>
+
+    <color name="bg_night">#f05C4B51</color>
+    <color name="text_night">#f0F2EBBF</color>
+
+    <color name="main_tv_bg_night">#f0ffffff</color>
+    <color name="main_tv_text_night">#ff000000</color>
+    <color name="main_border_night">#ff000000</color>
+
+    <color name="bg_day">#f0ffffff</color>
+    <color name="text_day">#f05C4B51</color>
+
+    <color name="main_tv_bg_day">#f0ffffff</color>
+    <color name="main_tv_text_day">#ff000000</color>
+    <color name="main_border_day">#ff000000</color>
+</resources>

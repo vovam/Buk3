@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:clickable="false"
+        >
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="@dimen/padding"
+        android:weightSum="8"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TableRow style="@style/options_row_style">
+            <TextView android:id="@+id/options_player1_name_title" android:text="@string/options_player1_name_title" style="@style/options_titles" />
+            <EditText android:id="@+id/options_player1_name"
+                android:hint="@string/player1_name"
+                style="@style/options_edittext" />
+        </TableRow>
+        <TableRow  style="@style/options_row_style">
+            <TextView android:id="@+id/options_player2_name_title" android:text="@string/player2_name_title" style="@style/options_titles"/>
+            <EditText android:id="@+id/options_player2_name" style="@style/options_edittext" android:hint="@string/player2_name"/>
+        </TableRow>
+
+        <TableRow style="@style/options_row_style">
+            <TextView android:id="@+id/options_debug_title" android:text="@string/options_debug" style="@style/options_titles" />
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/options_debug"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textOn="@string/options_debug_on"
+                android:textOff="@string/options_debug_off" />
+        </TableRow>
+
+        <TableRow style="@style/options_row_style">
+            <TextView android:id="@+id/options_theme_title" android:text="@string/options_theme" style="@style/options_titles"/>
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/options_theme"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textOn="@string/options_theme_day"
+                android:textOff="@string/options_theme_night" />
+        </TableRow>
+
+    </LinearLayout>
+</ScrollView>
